@@ -905,15 +905,15 @@
    >
 ]>
 <RENDER_MONKEY>
- <RmEffectWorkspace NAME="Effect Workspace" API="" ACTIVE_EFFECT="Effect Workspace.ColorShader" VALIDATION_STRING="" XML_VERSION="RenderMonkey 1.71">
+ <RmEffectWorkspace NAME="Effect Workspace" API="" ACTIVE_EFFECT="Effect Workspace.ToonShader" VALIDATION_STRING="" XML_VERSION="RenderMonkey 1.71">
   <RmRegistryBranch NAME="RM_REGISTRY" API="" XML_VERSION="RenderMonkey 1.71">
    <RmRegistryBranch NAME="RM_LOCAL" API="" XML_VERSION="RenderMonkey 1.71">
     <RmRegistryBranch NAME="RM_PLUGIN" API="" XML_VERSION="RenderMonkey 1.71"><RmTextDataBlock TYPE="TEXT"><![CDATA[
-<DockingPaneLayouts><Application_Layout><Pane-1><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Artist Editor</Title><ID>1001</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>7</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>7</LastHolder></Pane-1><Pane-2><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>3</Pane-1><Pane-2>8</Pane-2><Panes>2</Panes></Pane-2><Pane-3><Type>2</Type><DockingCX>0</DockingCX><DockingCY>669</DockingCY><Horiz>1</Horiz><Pane-1>4</Pane-1><Pane-2>6</Pane-2><Pane-3>7</Pane-3><Panes>3</Panes></Pane-3><Pane-4><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>5</Selected><Panes>1</Panes><Pane-1>5</Pane-1></Pane-4><Pane-5><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Workspace</Title><ID>1000</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>4</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>4</LastHolder></Pane-5><Pane-6><Type>4</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY></Pane-6><Pane-7><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-7><Pane-8><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>9</Selected><Panes>1</Panes><Pane-1>9</Pane-1></Pane-8><Pane-9><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Output</Title><ID>1002</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>8</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>8</LastHolder></Pane-9><Summary><TopContainer>2</TopContainer><Client>6</Client><Panes>9</Panes></Summary></Application_Layout></DockingPaneLayouts>
+<DockingPaneLayouts><Application_Layout><Pane-1><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Artist Editor</Title><ID>1001</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>10</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>10</LastHolder></Pane-1><Pane-2><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>1</Horiz><Pane-1>3</Pane-1><Pane-2>4</Pane-2><Pane-3>5</Pane-3><Panes>3</Panes></Pane-2><Pane-3><Type>1</Type><DockingCX>339</DockingCX><DockingCY>179</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-3><Pane-4><Type>1</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-4><Pane-5><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>6</Pane-1><Pane-2>11</Pane-2><Panes>2</Panes></Pane-5><Pane-6><Type>2</Type><DockingCX>0</DockingCX><DockingCY>669</DockingCY><Horiz>1</Horiz><Pane-1>7</Pane-1><Pane-2>9</Pane-2><Pane-3>10</Pane-3><Panes>3</Panes></Pane-6><Pane-7><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>8</Selected><Panes>1</Panes><Pane-1>8</Pane-1></Pane-7><Pane-8><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Workspace</Title><ID>1000</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>7</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>7</LastHolder></Pane-8><Pane-9><Type>4</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY></Pane-9><Pane-10><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-10><Pane-11><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>12</Selected><Panes>1</Panes><Pane-1>12</Pane-1></Pane-11><Pane-12><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Output</Title><ID>1002</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>11</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>11</LastHolder></Pane-12><Pane-13><Type>0</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Title>gWorldLightPosition</Title><ID>1100</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>4</DockingHolder><FloatingHolder>16</FloatingHolder><LastHolder>16</LastHolder></Pane-13><Pane-14><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>15</TopContaner><WindowRectTopPos>31</WindowRectTopPos><WindowRectBottomPos>224</WindowRectBottomPos><WindowRectLeftPos>580</WindowRectLeftPos><WindowRectRightPos>962</WindowRectRightPos></Pane-14><Pane-15><Type>2</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Horiz>1</Horiz><Pane-1>16</Pane-1><Panes>1</Panes></Pane-15><Pane-16><Type>1</Type><DockingCX>382</DockingCX><DockingCY>193</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-16><Pane-17><Type>0</Type><DockingCX>339</DockingCX><DockingCY>179</DockingCY><Title>gSurfaceColor</Title><ID>1101</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>3</DockingHolder><FloatingHolder>20</FloatingHolder><LastHolder>20</LastHolder></Pane-17><Pane-18><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>19</TopContaner><WindowRectTopPos>31</WindowRectTopPos><WindowRectBottomPos>210</WindowRectBottomPos><WindowRectLeftPos>580</WindowRectLeftPos><WindowRectRightPos>919</WindowRectRightPos></Pane-18><Pane-19><Type>2</Type><DockingCX>339</DockingCX><DockingCY>179</DockingCY><Horiz>1</Horiz><Pane-1>20</Pane-1><Panes>1</Panes></Pane-19><Pane-20><Type>1</Type><DockingCX>339</DockingCX><DockingCY>179</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-20><Summary><TopContainer>2</TopContainer><Client>9</Client><Panes>20</Panes></Summary></Application_Layout></DockingPaneLayouts>
 ]]></RmTextDataBlock>
      <RmRegistryBranch NAME="RmPreviewDx9Window" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EffectPlacementRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.ColorShader" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmRegistryBranch NAME="Effect Workspace.ToonShader" API="" XML_VERSION="RenderMonkey 1.71">
         <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="350" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -939,23 +939,6 @@
      <RmRegistryBranch NAME="RmRenderTargetEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
      </RmRegistryBranch>
-     <RmRegistryBranch NAME="RmShaderEditor" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="Effect Workspace.ColorShader" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Disassembly" API="" XML_VERSION="RenderMonkey 1.71"/>
-       <RmStringVariable NAME="Editing Shader" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-Vertex Shader]]></RmTextDataBlock></RmStringVariable>
-       <RmStringVariable NAME="Editing Pass" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-Pass 0]]></RmTextDataBlock></RmStringVariable>
-       <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="710" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="650" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="326" MIN="-10" MAX="10" CLAMP="FALSE"/>
-      </RmRegistryBranch>
-     </RmRegistryBranch>
      <RmRegistryBranch NAME="RmRenderStateBlockEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
      </RmRegistryBranch>
@@ -968,10 +951,54 @@ Pass 0]]></RmTextDataBlock></RmStringVariable>
      <RmRegistryBranch NAME="RmTextureGenerator" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
      </RmRegistryBranch>
+     <RmRegistryBranch NAME="RmVectorEditor" API="" XML_VERSION="RenderMonkey 1.71">
+      <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmRegistryBranch NAME="Effect Workspace.ToonShader.gWorldLightPosition" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1100" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       </RmRegistryBranch>
+      </RmRegistryBranch>
+     </RmRegistryBranch>
+     <RmRegistryBranch NAME="RmStreamEditor" API="" XML_VERSION="RenderMonkey 1.71">
+      <RmRegistryBranch NAME="Effect Workspace.ToonShader.Stream Mapping" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="838" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="123" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="641" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="216" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+      </RmRegistryBranch>
+     </RmRegistryBranch>
+     <RmRegistryBranch NAME="RmDynamicVariableEditor" API="" XML_VERSION="RenderMonkey 1.71">
+      <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmRegistryBranch NAME="Effect Workspace.ToonShader.gSurfaceColor" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1101" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmBooleanVariable NAME="ShowSetup" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="TRUE"/>
+       </RmRegistryBranch>
+      </RmRegistryBranch>
+     </RmRegistryBranch>
+     <RmRegistryBranch NAME="RmShaderEditor" API="" XML_VERSION="RenderMonkey 1.71">
+      <RmRegistryBranch NAME="Effect Workspace.ToonShader" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmRegistryBranch NAME="Disassembly" API="" XML_VERSION="RenderMonkey 1.71"/>
+       <RmStringVariable NAME="Editing Shader" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
+Pixel Shader]]></RmTextDataBlock></RmStringVariable>
+       <RmStringVariable NAME="Editing Pass" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
+Pass 0]]></RmTextDataBlock></RmStringVariable>
+       <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-2" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="650" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="650" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="303" MIN="-10" MAX="10" CLAMP="FALSE"/>
+      </RmRegistryBranch>
+     </RmRegistryBranch>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-20/1/2016 14:22:7]]></RmTextDataBlock></RmStringVariable>
+20/1/2016 19:11:7]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
@@ -981,57 +1008,77 @@ E:\GithubWorkspace\ShaderExamples\RenderMonkey\]]></RmTextDataBlock></RmStringVa
     </RmRegistryBranch>
    </RmRegistryBranch>
   </RmRegistryBranch>
-  <RmDirectXEffect NAME="ColorShader" API="D3D" ACTIVE_CAMERA="">
-   <RmMatrixVariable NAME="gWorldMatrix" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="World" VALUE_0="1.000000" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="0.000000" VALUE_4="0.000000" VALUE_5="1.000000" VALUE_6="0.000000" VALUE_7="0.000000" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.000000" VALUE_11="0.000000" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
-   <RmMatrixVariable NAME="gViewMatrix" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="View" VALUE_0="1.000000" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="0.000000" VALUE_4="0.000000" VALUE_5="1.000000" VALUE_6="0.000000" VALUE_7="0.000000" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.000000" VALUE_11="200.000000" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
-   <RmMatrixVariable NAME="gProjectionMatrix" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="Projection" VALUE_0="2.245950" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="0.000000" VALUE_4="0.000000" VALUE_5="2.414214" VALUE_6="0.000000" VALUE_7="0.000000" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.001001" VALUE_11="-1.001001" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="1.000000" VALUE_15="0.000000"/>
+  <RmDirectXEffect NAME="ToonShader" API="D3D" ACTIVE_CAMERA="">
+   <RmVectorVariable NAME="gWorldLightPosition" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE_0="500.000000" VALUE_1="500.000000" VALUE_2="-500.000000" VALUE_3="1.000000" MIN="-10.000000" MAX="10.000000" CLAMP="FALSE" NORMALIZE="FALSE"/>
+   <RmDynamicVariable NAME="gSurfaceColor" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VARIABLE_TYPE="FLOAT" ROWS="3" COLUMNS="1" FIXED_SIZE="TRUE" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE" NORMALIZE="FALSE">
+    <RmDynamicVariableValueContainer>
+     <RmDynamicVariableValue ROW_INDEX="0" COLUMN_INDEX="0" VALUE="0.300000"/>
+     <RmDynamicVariableValue ROW_INDEX="1" COLUMN_INDEX="0" VALUE="0.300000"/>
+     <RmDynamicVariableValue ROW_INDEX="2" COLUMN_INDEX="0" VALUE="0.300000"/>
+    </RmDynamicVariableValueContainer>
+   </RmDynamicVariable>
+   <RmMatrixVariable NAME="gWorldViewProjectionMatrix" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldViewProjection" VALUE_0="1.888021" VALUE_1="0.196810" VALUE_2="1.200389" VALUE_3="0.000000" VALUE_4="-0.442482" VALUE_5="2.352962" VALUE_6="0.310174" VALUE_7="-0.000032" VALUE_8="-0.510160" VALUE_9="-0.206168" VALUE_10="0.836203" VALUE_11="199.199295" VALUE_12="-0.509650" VALUE_13="-0.205962" VALUE_14="0.835366" VALUE_15="200.000107"/>
+   <RmMatrixVariable NAME="gInvWorldMatrix" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="WorldInverse" VALUE_0="1.000000" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="0.000000" VALUE_4="0.000000" VALUE_5="1.000000" VALUE_6="0.000000" VALUE_7="0.000000" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="1.000000" VALUE_11="0.000000" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
    <RmStreamMap NAME="Stream Mapping" API="">
-    <RmStream NAME="Stream" API="" STRIDE="12">
+    <RmStream NAME="Stream" API="" STRIDE="24">
      <RmStreamChannel NAME="Position_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="0" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Vertex"/>
+     <RmStreamChannel NAME="Normal_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="3" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_BlendWeight"/>
     </RmStream>
    </RmStreamMap>
-   <RmModelData NAME="Model" API="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Models\Sphere.3ds" ORIENTATION="0"/>
+   <RmModelData NAME="Model" API="" FILE_NAME="C:\Program Files (x86)\AMD\RenderMonkey 1.82\Examples\Media\Models\Teapot.3ds" ORIENTATION="0"/>
    <RmPass NAME="Pass 0" API="D3D" PASS_INDEX="0" ENABLED="TRUE">
     <RmModelReference NAME="Model" API=""/>
     <RmHLSLShader NAME="Vertex Shader" API="D3D" PIXEL_SHADER="FALSE" TARGET="vs_2_0" ENTRY_POINT="vs_main" COMPILER_FLAGS="0"><RmShaderCode TYPE="TEXT"><![CDATA[
-struct VS_INPUT 
+struct VS_INPUT
 {
-   float4 mPosition : POSITION0;
+   float4 mPosition : POSITION;
+   float3 mNormal : NORMAL;
 };
 
-struct VS_OUTPUT 
+struct VS_OUTPUT
 {
-   float4 mPosition : POSITION0;
+   float4 mPosition : POSITION;
+   float3 mDiffuse : TEXCOORD1;   
 };
 
-float4x4 gWorldMatrix;      // 월드행렬
-float4x4 gViewMatrix;       // 카메라(뷰)행렬
-float4x4 gProjectionMatrix; // 투영행렬
+float4x4 gWorldViewProjectionMatrix;
+float4x4 gInvWorldMatrix;
+
+float4 gWorldLightPosition;
 
 VS_OUTPUT vs_main( VS_INPUT Input )
 {
    VS_OUTPUT Output;
    
-   Output.mPosition = mul(Input.mPosition, gWorldMatrix);
-   Output.mPosition = mul(Output.mPosition, gViewMatrix);
-   Output.mPosition = mul(Output.mPosition, gProjectionMatrix);
+   Output.mPosition = mul(Input.mPosition, gWorldViewProjectionMatrix);
+   
+   float3 objectLightPosition = mul(gWorldLightPosition, gInvWorldMatrix);
+   float3 lightDir = normalize(Input.mPosition.xyz - objectLightPosition);
+   
+   Output.mDiffuse = dot(-lightDir, normalize(Input.mNormal));
    
    return Output;   
 }]]></RmShaderCode>
-     <RmShaderConstant NAME="gProjectionMatrix" API="" REGISTER="8"/>
-     <RmShaderConstant NAME="gViewMatrix" API="" REGISTER="4"/>
-     <RmShaderConstant NAME="gWorldMatrix" API="" REGISTER="0"/>
+     <RmShaderConstant NAME="gInvWorldMatrix" API="" REGISTER="4"/>
+     <RmShaderConstant NAME="gWorldLightPosition" API="" REGISTER="7"/>
+     <RmShaderConstant NAME="gWorldViewProjectionMatrix" API="" REGISTER="0"/>
     </RmHLSLShader>
     <RmHLSLShader NAME="Pixel Shader" API="D3D" PIXEL_SHADER="TRUE" TARGET="ps_2_0" ENTRY_POINT="ps_main" COMPILER_FLAGS="0"><RmShaderCode TYPE="TEXT"><![CDATA[
-float4 ps_main() : COLOR0
-{   
-   return( float4( 1.0f, 0.0f, 0.0f, 1.0f ) );
-   
-}
+float3 gSurfaceColor;
 
+struct PS_INPUT
+{
+   float3 mDiffuse : TEXCOORD1;
+};
 
-
-]]></RmShaderCode></RmHLSLShader>
+float4 ps_main( PS_INPUT Input ) : COLOR
+{
+   float3 diffuse = saturate(Input.mDiffuse);
+   diffuse = ceil(diffuse * 7) / 7.0f;
+   return float4(gSurfaceColor * diffuse.xyz, 1);
+}]]></RmShaderCode>
+     <RmShaderConstant NAME="gSurfaceColor" API="" REGISTER="0"/>
+    </RmHLSLShader>
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
    </RmPass>
   </RmDirectXEffect>
